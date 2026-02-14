@@ -12,7 +12,6 @@ type Comment struct {
 	Content string `json:"content"`
 	CreatedAt string `json:"created_at"`
 	User User  `json:"user"`
-	
 }
 
 type CommentStore struct {
